@@ -1,0 +1,11 @@
+IMPORTANTE!
+
+Para a utilização da plataforma mobile, é necessário mudar o ip nos arquivos:
+- RetrofitConfig.java
+- network_config_file.xml
+
+Na API, mudar a senha do banco de dados no arquivo:
+- application.properties
+
+Para a utilização da plataforma web, é necessário mudar o arquivo:
+- conexao.php
