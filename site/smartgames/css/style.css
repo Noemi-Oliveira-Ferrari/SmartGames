@@ -1,0 +1,621 @@
+ul, li, h1, p, h2, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa-foto{
+    width: 100%;
+    height: 700px;
+    background-color: fuchsia;
+    background-image: url(../img/foto-controle.jpg);
+    background-size: cover;
+}
+
+.conteudo-sites{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+}
+
+/*CONSOLES*/
+
+.caixa-consoles{
+    width: 1200px;
+    height: 200px;
+    background-color: white;
+}
+
+.caixa-consoles-imagens{
+    width: 380px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+}
+.imagens-console{
+    width: 300px;
+    height: 80px;
+    margin-top: 50px;
+}
+
+/*EXPLICAÇÃO SMART GAMES*/
+
+.caixa-descricao-smart{
+    width: 100%;
+    height: 200px;
+    background-color: #175ea6;
+}
+
+.caixa-descricao-smart-center{
+    width: 1200px;
+    height: 80px;
+    background-color: yellow;
+}
+
+.caixa-descricao-imagens{
+    width: 1200px;
+    height: 160px;
+}
+
+.caixa-descricao-imagens-abs{
+    width: 1200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -120px;
+}
+
+.icons-detalhes-loja{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 40px;
+}
+
+.imagem-descricao-icon{
+    width: 250px;
+    height: 70px;
+    box-sizing: border-box;
+    padding-left: 90px;
+    padding-top: 5px;
+}
+
+.descricao-texto{
+    width: 250px;
+    height: 120px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #4d4e4f;
+    font-family: calibri;
+}
+
+.titulo-descricao{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: calibri;
+    letter-spacing: 1px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.espaco-texto{
+    margin-top: 10px;
+}
+
+/*PESQUISAS*/
+.caixa-jogos{
+    width: 100%;
+    height: 160px;
+}
+
+.caixa-busca{
+    width: 1200px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.caixa-input{
+    width: 820px;
+    height: 60px;
+    float: left;
+    
+}
+
+.txt-pesquisa{
+    width: 800px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 22px;
+    padding-left: 10px;
+    font-family: calibri;
+    border: 1px solid #4d4e4f;
+    border-radius: 5px;
+}
+
+.caixa-icon-pesquisa{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.caixa-botao-pesquisar{
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+
+.btn-pesquisar{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color: #175ea6;
+    border: 1px solid #175ea6;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.btn-pesquisar:hover{
+    background-color: #175ea6;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/*LISTA DE JOGOS*/
+.caixa-lista-jogos{
+    width: 1200px;
+    height: auto;
+    min-height: 1000px;
+    overflow: hidden;
+    
+}
+
+.card-jogo{
+    width: 350px;
+    height: 380px;
+    border: 1px solid #aaacad;
+    border-radius: 5px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    
+}
+
+.card-jogo:hover{
+   box-shadow: 2px 2px 2px 2px rgba(0.5, 0.5, 0.4, 0.4);
+}
+
+.imagem-jogo{
+    width: 320px;
+    height: 220px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.form-jogo{
+    width: 320px;
+    height: 220px;
+}
+
+.titulo-jogo{
+    width: 320px;
+    height: 40px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 15px;
+    color: #175ea6;
+    margin-top: 10px;
+}
+
+.ano-classificacao{
+    width: 320px;
+    height: 50px;
+}
+
+.ano-jogo{
+    width: 230px;
+    height: inherit;
+    float: left;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.classificacao-jogo{
+    width: 42px;
+    height: 42px;
+    font-family: calibri;
+    float: left;
+    margin-left: 250px;
+    margin-top: -25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    
+}
+
+/*CORES DA CLASSIFICAÇÃO*/
+.cor0{
+   background-color: forestgreen; 
+}
+
+.cor10{
+    background-color: deepskyblue;
+}
+.cor12{
+    background-color: #f0d656;
+}
+.cor14{
+    background-color: orange;
+}
+.cor16{
+    background-color: red;
+}
+.cor18{
+    background-color: black;
+}
+
+
+
+.caixa-btn-detalhes{
+    width: 350px;
+    height: 50px;
+}
+
+.btn-detalhes{
+    width: 320px;
+    height: 40px;
+    background-color: white;
+    color: #175ea6;
+    border: 1px solid #175ea6;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.btn-detalhes:hover{
+    background-color: #175ea6;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/*MODAL*/
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 999;
+    display: none;
+    padding-top: 50px;
+
+}
+
+#modal{
+    width: 700px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+	box-sizing: border-box;
+	
+	
+}
+
+#caixa_fechar{
+    width: 700px;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.caixa-modal{
+    width: 700px;
+    height: 550px;
+}
+
+/*DADOS SOBRE O JOGO*/
+.caixa-informacoes-jogo{
+    width: 700px;
+    height: 300px;
+}
+
+.caixa-informacoes-jogo-esquerda{
+    width: 350px;
+    height: 300px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    float: left;
+}
+
+.caixa-informacoes-jogo-direita{
+    width: 350px;
+    height: 300px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.caixa-imagem-modal{
+    width: 300px;
+    height: 250px;
+}
+
+.caixa-idade-modal{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -55px;
+    font-family: calibri;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    margin-left: 250px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.caixa-titulo-modal{
+    width: inherit;
+    height: 40px;
+    margin-top: 20px;
+    font-family: calibri;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.caixa-ano-genero{
+    width: inherit;
+    height: 40px;
+    font-family: calibri;
+    font-size: 20px;
+
+}
+
+.caixa-plataforma-nota{
+    width: inherit;
+    height: 40px;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.caixa-descricao-modal{
+    width: inherit;
+    height: 150px;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+
+/*DADOS SOBRE A LOJA*/
+.caixa-informacoes-loja{
+    width: 700px;
+    height: 280px;
+}
+
+
+.caixa-mapa-modal{
+    width: 400px;
+    height: 290px;
+    float: left;
+}
+
+.caixa-mapa-iframe{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.caixa-endereco-loja{
+    width: 290px;
+    height: 290px;
+    margin-left: 10px;
+    float: left;
+}
+
+.disponibilidade-jogo{
+    width: 290px;
+    height: 30px;
+    font-family: calibri;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    color: #8c8f8d;
+}
+
+.caixa-titulo-loja{
+    width: 290px;
+    height: 30px;
+    font-family: calibri;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.caixa-logradouro{
+    width: 290px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: calibri;
+    
+}
+
+.caixa-bairro-numero{
+    width: 290px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: calibri;
+    
+}
+
+.fechar-modal{
+     width: 290px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.fechar-modal:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#slide{
+    width: 100%;
+    height: 700px;
+    
+}
+
+.caixa-titulo-smart-games{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: -560px;
+    box-sizing: border-box;
+}
+
+.titulo-smart-games{
+    width: 700px;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+.texto-bem-vindo{
+    width: 700px;
+    height: 30px;
+    background-color: rgba(10,23,55,0.5);
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    font-stretch: ultra-condensed;
+    font-family: arial;
+    letter-spacing: 5px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.smart-games{ 
+    width: 700px;
+    height: 80px;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-stretch: ultra-condensed;
+    font-family: arial;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    background-color: rgba(10,23,55,0.5);;
+}
+
+.descricao-smart-games{
+    width: 700px;
+    height: 80px;
+    color: white;
+    background-color: rgba(10,23,55,0.5);;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-stretch: ultra-condensed;
+    font-family: arial;
+    letter-spacing: 5px;
+    
+}
+
+
+/*RODAPE*/
+.caixa-rodape{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-color: #4d4e4f;
+    box-sizing: border-box;
+}
+
+.caixa-rodape-center{
+    width: 1200px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.smart-games-rodape{
+    width: 400px;
+    height: 300px;
+    float: left;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-stretch: ultra-condensed;
+    font-family: arial;
+    letter-spacing: 5px;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.descricao-rodape{
+    width: 400px;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    font-stretch: ultra-condensed;
+    font-family: arial;
+    letter-spacing: 2px;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.redes-sociais-rodape{
+    width: 400px;
+    height: 300px;
+    float: left;
+    
+}
+
+.destaque-rodape{
+    font-weight: bold;
+}
+
+.redes-sociais{
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    padding-top: 140px;
+    padding-left: 60px;
+    float: left;
+    
+}

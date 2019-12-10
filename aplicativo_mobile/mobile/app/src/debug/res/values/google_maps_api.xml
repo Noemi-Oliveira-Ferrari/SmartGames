@@ -1,0 +1,4 @@
+<resources>
+    <!-- CHAVE DA API DO GOOGLE MAPS -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBsNR-qkPreXjMsM10O7m--I4uv32pujd4</string>
+</resources>
